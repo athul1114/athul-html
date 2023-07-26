@@ -1,7 +1,8 @@
 body{
     margin: 0;
 }
-:root{
+:root:hover{
+   
     
 }
 .header{
@@ -21,6 +22,10 @@ body{
    height: 90px;
    float: left;
 }
+.logo:hover{
+    cursor: pointer;
+    
+}
 .product{
     margin-left: 25px;
     height: 30px;
@@ -33,10 +38,12 @@ body{
    font-size: 14px;
 
 }
+
 .product:hover{
     border-bottom: solid;
     border-width: 5px;
     border-color: black;
+    cursor: pointer;
 }
 .about{
     margin-left: 40px;
@@ -51,7 +58,7 @@ body{
 
 }
 .about:hover{
- 
+ cursor: pointer;
         border-bottom: solid;
         border-width: 5px;
         border-color: black;
@@ -70,7 +77,7 @@ body{
 
 }
 .health:hover{
- 
+ cursor: pointer;
     border-bottom: solid;
     border-width: 5px;
     border-color: black;
@@ -89,7 +96,7 @@ body{
 
 }
 .ourmission:hover{
- 
+    cursor: pointer;
     border-bottom: solid;
     border-width: 5px;
     border-color: black;
@@ -107,7 +114,7 @@ body{
    font-size: 14px;
 }
 .service:hover{
- 
+    cursor: pointer;
     border-bottom: solid;
     border-width: 5px;
     border-color: black;
@@ -121,15 +128,24 @@ body{
     margin-top: 19px;
 
 }
+.search:hover{
+    cursor: pointer;
+}
 .img1{
     margin-top: -5px;
 
 
 }
+.img1:hover{
+    cursor: pointer;
+}
 .youtube{
     margin-top: 70px;
     padding-left: 70px;
     padding-right: 70px;
+}
+.youtube:hover{
+    cursor: pointer;
 }
 .explore{
     font-size: 18px;
@@ -138,24 +154,42 @@ body{
     font-family: Arial;
     font-weight: bold;
 }
+.explore:hover{
+    cursor: pointer;
+}
 .productname{
     height: 400px;
     width: 90%;
     margin-left: 5%;
     
 }
+.productname:hover{
+    cursor: pointer;
+}
 .imgofproduct{
     margin-left: 10%;
 
 }
+.imgofproduct:hover{
+    cursor: pointer;
+}
 .bars{
     margin-left: 5%;
+}
+.bars:hover{
+    cursor: pointer;
 }
 .vitmis{
     margin-left: 15%;
 }
+.vitmis:hover{
+    cursor: pointer;
+}
 .hands{
     margin-left: 13%;
+}
+.hands:hover{
+    cursor: pointer;
 }
 .barsoap{
 
@@ -167,6 +201,9 @@ body{
 background-color: #e2231a;
 
 }
+.barsoap:hover{
+    cursor: pointer;
+}
 .handwash{
     
     border-radius:13px ;
@@ -177,14 +214,20 @@ background-color: #e2231a;
 background-color: #e2231a;
 
 }
+.handwash:hover{
+    cursor: pointer;
+}
 .sanitizer{
   
     border-radius:13px ;
     margin-top: -275px;
     margin-left: 68%;
-       width: 32%;
+     width: 32%;
        height: 250px;
    background-color: #e2231a;
+}
+.sanitizer:hover{
+    cursor: pointer;
 }
 .bartext{
     font-size: 25px;
@@ -194,6 +237,9 @@ background-color: #e2231a;
   
      padding-top: 35%;
    margin-left: 28%;
+}
+.bartext:hover{
+    cursor: pointer;
 }
 .handwashtext{
    
@@ -206,7 +252,9 @@ background-color: #e2231a;
    margin-left: 22%;
 
 }
-    
+.handwashtext:hover{
+    cursor: pointer;
+}   
 
 
 .sanitizertext{
@@ -220,6 +268,9 @@ background-color: #e2231a;
   
 
 }
+.sanitizertext:hover{
+    cursor: pointer;
+}
 .seeallproduct1{
     font-size: 14px;
     font-family: Arial;
@@ -227,6 +278,9 @@ background-color: #e2231a;
     margin-left: 30%;
    
 
+}
+.seeallproduct1:hover{
+    cursor: pointer;
 }
 .seeallproduct2{
     font-size: 14px;
@@ -236,6 +290,9 @@ background-color: #e2231a;
    
 
 }
+.seeallproduct2:hover{
+    cursor: pointer;
+}
 .seeallproduct3{
     font-size: 14px;
     font-family: Arial;
@@ -244,10 +301,16 @@ background-color: #e2231a;
    
 
 }
+.seeallproduct3:hover{
+    cursor: pointer;
+}
 .hygine{
     margin-top: 40px;
     width: 100%;
 
+}
+.hygine:hover{
+    cursor: pointer;
 }
 .health1{
     font-family: Arial;
@@ -258,6 +321,9 @@ background-color: #e2231a;
     color: black;
 
 }
+.health1:hover{
+    cursor: pointer;
+}
 .stay{
    
     font-family: Arial;
@@ -266,6 +332,9 @@ background-color: #e2231a;
     
 float: left; 
 
+}
+.stay:hover{
+    cursor: pointer;
 }
 .visitarticle{
 
@@ -278,6 +347,9 @@ float: left;
  font-weight:700 ;
 
 }
+.visitarticle:hover{
+    cursor: pointer;
+}
 
 .threeimg{
     display: flex;
@@ -285,6 +357,9 @@ float: left;
     width: 100%;
     height: 500px;
 
+}
+.threeimg:hover{
+    cursor: pointer;
 }
 .threeimg1{
    
@@ -295,6 +370,9 @@ float: left;
     height: 500px;
     background-color:#e2231a;
 }
+.threeimg1:hover{
+    cursor: pointer;
+}
 .phw1{
    
     object-fit: cover;
@@ -303,11 +381,17 @@ float: left;
    
 
 }
+.phw1:hover{
+    cursor: pointer;
+}
 .phw1discrpiton{
     margin-left: 20px;
     color: white;
     font-family: Arial;
     font-size: 20px;
+}
+.phw1discrpiton:hover{
+    cursor: pointer;
 }
 .phw1discrpiton1{
     margin-left: 20px;
@@ -315,6 +399,9 @@ float: left;
     color: white;
     font-family: Arial;
     font-size: 14px;
+}
+.phw1discrpiton1:hover{
+    cursor: pointer;
 }
 
 
@@ -325,16 +412,25 @@ float: left;
     height: 500px;
     background-color: #e2231a;
 }
+.threeimg2:hover{
+    cursor: pointer;
+}
 .phc2{
   
     object-fit: cover;
     object-position: center;
+}
+.phc2:hover{
+    cursor: pointer;
 }
 .phc2discription{
     margin-left: 20px;
     color: white;
     font-family: Arial;
     font-size: 20px;
+}
+.phc2discription:hover{
+    cursor: pointer;
 }
 .phc2discription1{
     margin-left: 20px;
@@ -343,21 +439,33 @@ float: left;
     font-family: Arial;
     font-size: 14px;
 }
+.phc2discription1:hover{
+    cursor: pointer;
+}
 .threeimg3{
     margin-left: 3%;
     width: 31.3%;
     height: 500px;
     background-color: #e2231a;
 }
+.threeimg3:hover{
+    cursor: pointer;
+}
 .phmn3{
     object-fit: cover;
     object-position: center;
+}
+.phmn3:hover{
+    cursor: pointer;
 }
 .phmn1discription{
     margin-left: 20px;
     color: white;
     font-family: Arial;
     font-size: 20px;
+}
+.phmn1discription:hover{
+    cursor: pointer;
 }
 .phmn1discription1{
     margin-left: 20px;
@@ -366,10 +474,16 @@ float: left;
     font-family: Arial;
     font-size: 14px;
 }
+.phmn1discription1:hover{
+    cursor: pointer;
+}
 
 .arro1{
     width: 100%;
     display: flex;
+}
+.arro1:hover{
+    cursor: pointer;
 }
 
 
@@ -385,12 +499,18 @@ float: left;
     width: 111%;
     background-color: rgb(247, 244, 244);
 }
+.globalpartners1:hover{
+    cursor: pointer;
+}
 .gbl{
     color: #d50e03;
     margin-left: 479px;
     font-weight: bold;
     font-size: 40px;
     font-family: arial;
+}
+.gbl:hover{
+    cursor: pointer;
 }
 
 .arrowcleft{
@@ -399,10 +519,16 @@ float: left;
     width:36px;
   
 }
+.arrowcleft:hover{
+    cursor: pointer;
+}
 .arrowcright{
 
     margin-top: 45px;
     width:36px;
+}
+.arrowcright:hover{
+    cursor: pointer;
 }
 .london{
 
@@ -410,14 +536,26 @@ float: left;
 .unicef{
     margin-left: 30px;
 }
+.unicef:hover{
+    cursor: pointer;
+}
 .partnersin{
     margin-left: 30px;
+}
+.partnersin:hover{
+    cursor: pointer;
 }
 .savethechildren{
     margin-left: 30px;
 }
+.savethechildren:hover{
+    cursor: pointer;
+}
 .usaid{
     margin-left: 30px;
+}
+.usaid:hover{
+    cursor: pointer;
 }
 
 .line1{
@@ -428,10 +566,16 @@ float: left;
      width: 111.1%;
      border-width: 4px;   
 }
+.line1:hover{
+    cursor: pointer;
+}
 
 .newsuper{
     margin-left: 5%;
     margin-top: 110px;
+}
+.newsuper:hover{
+    cursor: pointer;
 }
 .select1{
    
@@ -440,13 +584,20 @@ float: left;
     width: 100%;
     display: flex;
 }
+.fotter1:hover{
+    cursor: pointer;
+}
 .logoani{
     margin: 40px;
+}
+.logoani:hover{
+    cursor: pointer;
 }
 .productdiv ul li{
     font-family: arial;
      list-style-type:none;
  }
+ 
  .healthhdiv ul li{
     font-family: arial;
      list-style-type:none;
@@ -471,6 +622,9 @@ float: left;
     font-size: 13px;
     font-weight: bold;
 }
+.Productspro1:hover{
+    cursor: pointer;
+}
 .Productspro2 {
     
     margin-top: 50px;
@@ -479,6 +633,9 @@ float: left;
     font-size: 13px;
     font-weight: bold;
 }
+.Productspro2:hover{
+    cursor: pointer;
+}
 .Productspro3 {
     
     margin-top: 50px;
@@ -486,6 +643,9 @@ float: left;
     font-family: arial;
     font-size: 13px;
     font-weight: bold;
+}
+.Productspro3:hover{
+    cursor: pointer;
 }
 .Productspro4{
     
